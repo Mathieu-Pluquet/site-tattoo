@@ -34,11 +34,15 @@ a {
 /*section */
 
 img {
-  width:110%;
+
+  width:80%;
   margin: auto;
   display: flex;
   justify-content: center;
+}
 
+.img2 {
+  height: 115px;
 }
 
 .sect1{
@@ -55,9 +59,17 @@ border: 1px solid white;
 margin-top: 50px;
 }
 
+.sec2 {
+  padding-top: 100px;
+  color: white;
+  font-size: 25px;
+  width: 80%;
+  margin: auto;
+}
 .sec1:nth-child(3) {
   display: none;
 }
+
 
 
 @media (min-width:720px) {
@@ -69,7 +81,6 @@ margin-top: 50px;
   margin: auto;
   border: 1px solid white;
   margin-top: 50px;
-  background-color: white;
 }
 
 .sec1:nth-child(3) {
