@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(http://tattoocompris.com/wp-content/uploads/2014/02/topimage1-1824x950.jpg);
+}
+/*page accueil*/
+
+/*header*/
+h1 {
+  text-align: center;
+}
+.topnav {
+background-color: red;
+display: flex;
+height: 100px;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+list-style-type: none;
+}
