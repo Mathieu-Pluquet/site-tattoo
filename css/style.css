@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 .bg {
  margin:0;
  height: 100vh;
@@ -48,7 +47,6 @@ font-size: 40px;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
   background-attachment:fixed;
-  width: 100%;
   color: white;
 }
 
@@ -102,15 +100,36 @@ img {
   vertical-align: middle;
 }
 
+.sect3 {
+    margin-top: 10em;
+}
+.sect3,.sect4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .divpapa {
 background-color: white;
 
+}
+
+.divpapa img {
+  height: 300px;
+  width: 300px;
 }
 
 .sec1, .sec3 {
 display: flex;
 width: 50%;
 }
+
+.sec1 img, .sec3 img {
+width: 200px;
+height: 200px;
+}
+
+
+
 .sec1 {
   justify-content: center;
   align-items: center;
@@ -128,12 +147,17 @@ width: 50%;
   justify-content: center;
   height: 25em;
   align-items: center;
-
   border-left: 5px outset #777777;
-
 }
 .sec1:nth-child(3) {
   display: none;
+}
+.secg{
+justify-content: center;
+align-items: center;
+width: 30%;
+margin: auto;
+height: 25em;
 }
 
 .titre {
@@ -148,6 +172,9 @@ h1{
 
 .img32 {
   width:60%;
+  display: flex;
+  margin-left: 30em;
+
 }
 
 p {
@@ -173,8 +200,17 @@ p {
   justify-content: center;
   align-items: center;
   color: rgba(255, 255, 255, 0.7);
-  padding: 5em;
+  width: 100%;
+}
+/*page news*/
 
+.secnew {
+display: flex;
+width: 20%;
+margin: auto;
+height: 25em;
+justify-content: center;
+align-items: center;
 }
 /*page contact*/
 
@@ -183,6 +219,7 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+
 
 }
 
@@ -204,6 +241,18 @@ form label, form input, form textarea {
   align-items: center;
 }
 
+.divpapa1 img {
+  height: 200px;
+  width: 300px;
+}
+
+.sec5 {
+  padding:10em;
+  color: white;
+  font-size: 25px;
+  width: 80%;
+  margin: auto;
+}
 @media (min-width:720px) {
 
 
