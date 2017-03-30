@@ -3,20 +3,61 @@
   padding: 0;
 }
 
-body {
-  background-image: url(http://tattoocompris.com/wp-content/uploads/2014/02/topimage1-1824x950.jpg);
+
+.bg {
+ margin:0;
+ height: 100vh;
+ background: url(http://tattoocompris.com/wp-content/uploads/2014/02/topimage1-1824x950.jpg) no-repeat center fixed;
+ -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+ background-size: cover; /* version standardisée */
+ background-attachment:fixed;
+ width: 100%;
+ color: white;
+ }
+
+ .bg1 {
+   background: url(https://4.bp.blogspot.com/-ISfnkqWy4jU/WNY4Pw2aRyI/AAAAAAAAF_k/6qZFPhhxR3oqmRnk6NrIajGRYHbvTu8RgCLcB/s1600/Tatouage%2Bligne%2Bavant%2Bbras%2Bsignification%2B1.jpg) no-repeat center fixed;
+   margin:0;
+   height: 100vh;
+   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+   background-size: cover; /* version standardisée */
+   background-attachment:fixed;
+   width: 100%;
+   color: white;
+ }
+
+
+.bg h2 {
+
+padding-top: 10em;
+width: 80%;
+margin: auto;
+font-size: 40px;
+}
+
+.bg1 h2 {
+  padding-top: 5em;
+  width: 80%;
+  margin: auto;
+  font-size: 40px;
+}
+.kiki {
+  background: url(http://tattoocompris.com/wp-content/uploads/2014/02/topimage1-1824x950.jpg) no-repeat center fixed;
+  margin:0;
+  height: 100vh;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  background-attachment:fixed;
+  width: 100%;
+  color: white;
 }
 
 /*page accueil*/
 
 /*header*/
 
-h1 {
-  text-align: center;
-}
 .topnav {
-background-color: red;
-display: flex;
+background-color: blue;
 height: 100px;
 justify-content: center;
 align-items: center;
@@ -32,7 +73,10 @@ a {
 /*page galerie */
 
 /*section */
-
+hr {
+  width: 100%;
+  color:#777777;
+}
 img {
 
   width:80%;
@@ -43,34 +87,122 @@ img {
 
 .img2 {
   height: 115px;
+  width: 150px;
 }
 
 .sect1{
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
-  margin: auto;
-}
-.sec1 {
-display: flex;
-width: 34%;
-margin: auto;
-border: 1px solid white;
-margin-top: 50px;
+  background-color: black;
 }
 
+.sect2 {
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+}
+
+.divpapa {
+background-color: white;
+
+}
+
+.sec1, .sec3 {
+display: flex;
+width: 50%;
+}
+.sec1 {
+  justify-content: center;
+  align-items: center;
+}
 .sec2 {
-  padding-top: 100px;
+  padding:15em;
   color: white;
   font-size: 25px;
   width: 80%;
   margin: auto;
 }
+
+.sec3 {
+  display: flex;
+  justify-content: center;
+  height: 25em;
+  align-items: center;
+
+  border-left: 5px outset #777777;
+
+}
 .sec1:nth-child(3) {
   display: none;
 }
 
+.titre {
+  width: 80%;
+  margin: auto;
+  padding: 5em;
+}
 
+h1{
+  font-size: 40px;
+}
+
+.img32 {
+  width:60%;
+}
+
+p {
+  font-size: 20px;
+
+}
+
+.intro {
+  width: 80%;
+  margin: auto;
+}
+
+.sec2 p , .sec1 h2, .sec3 h2{
+  color: white;
+}
+
+/*footer*/
+
+.foot {
+  background-color: #777777;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 5em;
+
+}
+/*page contact*/
+
+form {
+    width: 20em;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+
+}
+
+iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form label, form input, form textarea {
+  margin-top:1.5em;
+}
+
+.map {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (min-width:720px) {
 
@@ -79,12 +211,23 @@ margin-top: 50px;
   display: flex;
   width: 25%;
   margin: auto;
-  border: 1px solid white;
-  margin-top: 50px;
+  height: 25em;
 }
 
 .sec1:nth-child(3) {
   display:block;
+}
+
+.topnav {
+background-color: black;
+display: flex;
+height: 100px;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+list-style-type: none;
+width: 100%;
+position: fixed;
 }
 
 }
