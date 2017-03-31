@@ -2,9 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family:Courier New;
+}
 a:hover {
   font-size: 23px;
 }
+
 .bg {
  margin:0;
  height: 100vh;
@@ -34,6 +39,7 @@ padding-top: 7em;
 width: 80%;
 margin: auto;
 font-size: 40px;
+font-family:Courier New;
 }
 
 .bg1 h2 {
