@@ -211,6 +211,10 @@ img {
 
 }
 
+.secg img {
+  border: 5px solid black;
+}
+
 .divpapa3 img{
 background-color: white;
 height: 150px;
@@ -413,7 +417,6 @@ input, textarea {
 
 @media (min-width:720px) {
 
-
 .sec1 {
   display: flex;
   width: 25%;
@@ -424,7 +427,6 @@ input, textarea {
 .secg:nth-child(3) {
   display:flex;
 }
-
 
 .topnav {
 background-color: black;
@@ -438,7 +440,6 @@ width: 100%;
 position: fixed;
 }
 
-
 .fig {
   width: 100%;
   display: flex;
@@ -450,7 +451,10 @@ position: fixed;
   margin-left: 30em;
 }
 
-
+.sec1 img, .sec3 img {
+width: 300px;
+height: 300px;
+}
 .sec3 {
   display: flex;
   justify-content: center;
@@ -479,6 +483,7 @@ justify-content: center;
 align-items: center;
 width: 30%;
 height: 25em;
+
 }
 
 .divpapa img {
@@ -497,7 +502,6 @@ height: 25em;
 .map {
   display: block;
 }
-
 
 form {
     width: 20em;
@@ -540,5 +544,17 @@ label  {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+
+}
+
+@media (min-width:1024px) {
+.secnew:nth-child(3) {
+    display: block;
+}
+.secnew {
+width: 30%;
+margin: auto;
+}
+
 
 }
