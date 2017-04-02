@@ -338,6 +338,9 @@ p {
 
 /*footer*/
 
+footer {
+  margin-top: 12px;
+}
 .foot {
   background-color: #777777;
   display: flex;
@@ -512,7 +515,7 @@ font-size: 20px;
 }
 
 .secg img {
-  border: 10px solid black;
+  border: 10px solid white;
 }
 
 .sec1 img, .sec3 img {
@@ -562,6 +565,7 @@ height: 25em;
 
 .divpapa {
   display: block;
+  background-color: #130E0A;
 }
 
 .divpapa3 {
@@ -620,8 +624,12 @@ label  {
 
 .div1 h3 {
   font-size: 30px;
+  color: white;
 }
 
+footer {
+  margin-top: 0px;
+}
 }
 
 @media (min-width:1024px) {
