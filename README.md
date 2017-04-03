@@ -37,8 +37,8 @@ Couleurs:
 
 Typographie:
 
-menu: courier new
-news: chalkduster
-site: fantasy
+- menu: courier new
+- news: chalkduster
+- site: fantasy
 
 
