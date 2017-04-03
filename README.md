@@ -17,16 +17,16 @@ page galerie:
 
 page news:
 
--menu
--6 articles pour pc et 4 pour tablette et mobile 
--footer
+- menu
+- 6 articles pour pc et 4 pour tablette et mobile 
+- footer
 
 page contact:
 
--menu
--formulaire
--google map
--footer
+- menu
+- formulaire
+- google map
+- footer
 
 Couleurs:
 
